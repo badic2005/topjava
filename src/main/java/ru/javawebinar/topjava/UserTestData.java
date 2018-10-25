@@ -5,7 +5,7 @@ import ru.javawebinar.topjava.model.User;
 
 import java.util.Arrays;
 
-import static org.assertj.core.api.*;
+import static org.assertj.core.api.Assertions.assertThat;
 import static ru.javawebinar.topjava.model.AbstractBaseEntity.START_SEQ;
 
 public class UserTestData {
